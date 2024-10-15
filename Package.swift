@@ -9,8 +9,7 @@ let package = Package(
         .macOS(.v15)
     ],
     dependencies: [
-        .package(url: "https://github.com/gereons/AoCTools", from: "0.1.0")
-//        .package(path: "../AoCTools")
+        .package(url: "https://github.com/gereons/AoCTools.git", from: "0.1.1")
     ],
     targets: [
         .executableTarget(

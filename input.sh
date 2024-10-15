@@ -29,10 +29,7 @@ cat <<END
 extension Day$D2 {
 static let input = #"""
 END
-
-UA="https://github.com/gereons/aoc2024"
-curl -s https://adventofcode.com/$YR/day/$DAY/input --cookie "session=$AOC_SESSION" -H "User-Agent: $UA"
-
+curl -s https://adventofcode.com/$YR/day/$DAY/input --cookie "session=$AOC_SESSION"
 cat <<END
 """#
 }
